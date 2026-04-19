@@ -71,7 +71,7 @@ $$\ddot{x} = \frac{m}{m_{eff}} x \dot{\theta}^2 - \frac{mg}{m_{eff}} \sin\theta$
 
 Tại trạng thái xác lập, hệ thống hoạt động quanh điểm làm việc $\theta \approx 0$ và $\dot{\theta} \approx 0$. Bỏ qua lực ly tâm ($x\dot{\theta}^2 \approx 0$) và xấp xỉ $\sin\theta \approx \theta$, mô hình được **tuyến tính hóa** (linearization) thành dạng tích phân kép lý tưởng:
 $$\ddot{x} = -\frac{3g}{5}\theta$$
-*(Với đại lượng $m_{eff} = \frac{5}{3}m$ là khối lượng biểu kiến của quả bóng).*
+(Với đại lượng $m_{eff} = \frac{5}{3}m$ là khối lượng biểu kiến của quả bóng).
 Hàm truyền hệ hở: $G(s) = \frac{X(s)}{\Theta(s)} = \frac{-3g}{5s^2}$.
 
 ## 5\. CASCADE CONTROL STRATEGY & PID TUNING
